@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_eedca7c3b763fafe36705390a1ec1c0c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_eedca7c3b763fafe36705390a1ec1c0c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_eedca7c3b763fafe36705390a1ec1c0c = L.map(
+                "map_eedca7c3b763fafe36705390a1ec1c0c",
+                {
+                    center: [58.0, 60.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 3,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_baab5f393b2517e22ca21984b05973b0 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_baab5f393b2517e22ca21984b05973b0.addTo(map_eedca7c3b763fafe36705390a1ec1c0c);
+        
+    
+            var marker_cluster_bbb12765421fadbe0a3632f69c09993c = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_d0497dabf9da5e7263b5f930fa8777be = L.marker(
+                [55.7558, 37.6173],
+                {
+}
+            ).addTo(marker_cluster_bbb12765421fadbe0a3632f69c09993c);
+        
+    
+        var popup_711277d64b4dfb2ec98fc7e97832fd6e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_59ce0583721d5008b8179bce3b54a68e = $(`<div id="html_59ce0583721d5008b8179bce3b54a68e" style="width: 100.0%; height: 100.0%;">АС города Москвы</div>`)[0];
+                popup_711277d64b4dfb2ec98fc7e97832fd6e.setContent(html_59ce0583721d5008b8179bce3b54a68e);
+            
+        
+
+        marker_d0497dabf9da5e7263b5f930fa8777be.bindPopup(popup_711277d64b4dfb2ec98fc7e97832fd6e)
+        ;
+
+        
+    
+    
+            marker_d0497dabf9da5e7263b5f930fa8777be.bindTooltip(
+                `<div>
+                     АС города Москвы: 5 актов
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2a5a101eac023824fcb660cbe772e4be = L.marker(
+                [52.2864, 104.2807],
+                {
+}
+            ).addTo(marker_cluster_bbb12765421fadbe0a3632f69c09993c);
+        
+    
+        var popup_b9dd6a9814885227aa148fa0dea7321e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_edaf527655063e2fafd6dca319dd0b48 = $(`<div id="html_edaf527655063e2fafd6dca319dd0b48" style="width: 100.0%; height: 100.0%;">АС Иркутской области</div>`)[0];
+                popup_b9dd6a9814885227aa148fa0dea7321e.setContent(html_edaf527655063e2fafd6dca319dd0b48);
+            
+        
+
+        marker_2a5a101eac023824fcb660cbe772e4be.bindPopup(popup_b9dd6a9814885227aa148fa0dea7321e)
+        ;
+
+        
+    
+    
+            marker_2a5a101eac023824fcb660cbe772e4be.bindTooltip(
+                `<div>
+                     АС Иркутской области: 3 актов
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3c094df7cf777b0606a86ace1aa748e3 = L.marker(
+                [48.4802, 135.0719],
+                {
+}
+            ).addTo(marker_cluster_bbb12765421fadbe0a3632f69c09993c);
+        
+    
+        var popup_bceb66c5609ba388e3d0d12b3e733f60 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0ea077c7272c2df4f9d521f878b07a3f = $(`<div id="html_0ea077c7272c2df4f9d521f878b07a3f" style="width: 100.0%; height: 100.0%;">АС Хабаровского края</div>`)[0];
+                popup_bceb66c5609ba388e3d0d12b3e733f60.setContent(html_0ea077c7272c2df4f9d521f878b07a3f);
+            
+        
+
+        marker_3c094df7cf777b0606a86ace1aa748e3.bindPopup(popup_bceb66c5609ba388e3d0d12b3e733f60)
+        ;
+
+        
+    
+    
+            marker_3c094df7cf777b0606a86ace1aa748e3.bindTooltip(
+                `<div>
+                     АС Хабаровского края: 3 актов
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1d8a1021d2e02f027b32e94c94e544f5 = L.marker(
+                [58.6035, 49.6679],
+                {
+}
+            ).addTo(marker_cluster_bbb12765421fadbe0a3632f69c09993c);
+        
+    
+        var popup_d609763b7ae4e1b5c66757395c05240b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f4fc26cd4d9e7f7b8372b73cabf74e01 = $(`<div id="html_f4fc26cd4d9e7f7b8372b73cabf74e01" style="width: 100.0%; height: 100.0%;">АС Кировской области</div>`)[0];
+                popup_d609763b7ae4e1b5c66757395c05240b.setContent(html_f4fc26cd4d9e7f7b8372b73cabf74e01);
+            
+        
+
+        marker_1d8a1021d2e02f027b32e94c94e544f5.bindPopup(popup_d609763b7ae4e1b5c66757395c05240b)
+        ;
+
+        
+    
+    
+            marker_1d8a1021d2e02f027b32e94c94e544f5.bindTooltip(
+                `<div>
+                     АС Кировской области: 2 актов
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_109aacc456768a298fdffe8ba8675181 = L.marker(
+                [54.9885, 73.3242],
+                {
+}
+            ).addTo(marker_cluster_bbb12765421fadbe0a3632f69c09993c);
+        
+    
+        var popup_2f5d7d097b436929e9a72e4ec89b4f8f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_af8d15bbe96c580ddc37b325b6414841 = $(`<div id="html_af8d15bbe96c580ddc37b325b6414841" style="width: 100.0%; height: 100.0%;">АС Омской области</div>`)[0];
+                popup_2f5d7d097b436929e9a72e4ec89b4f8f.setContent(html_af8d15bbe96c580ddc37b325b6414841);
+            
+        
+
+        marker_109aacc456768a298fdffe8ba8675181.bindPopup(popup_2f5d7d097b436929e9a72e4ec89b4f8f)
+        ;
+
+        
+    
+    
+            marker_109aacc456768a298fdffe8ba8675181.bindTooltip(
+                `<div>
+                     АС Омской области: 2 актов
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6095fa922ee2f552c9befa4beb003422 = L.marker(
+                [50.5954, 36.5873],
+                {
+}
+            ).addTo(marker_cluster_bbb12765421fadbe0a3632f69c09993c);
+        
+    
+        var popup_da6d25357d5e3804ed89a16263343503 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8eab07e193098a8fc6d54fe068cdf6ad = $(`<div id="html_8eab07e193098a8fc6d54fe068cdf6ad" style="width: 100.0%; height: 100.0%;">АС Белгородской области</div>`)[0];
+                popup_da6d25357d5e3804ed89a16263343503.setContent(html_8eab07e193098a8fc6d54fe068cdf6ad);
+            
+        
+
+        marker_6095fa922ee2f552c9befa4beb003422.bindPopup(popup_da6d25357d5e3804ed89a16263343503)
+        ;
+
+        
+    
+    
+            marker_6095fa922ee2f552c9befa4beb003422.bindTooltip(
+                `<div>
+                     АС Белгородской области: 1 актов
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4ecdc9294676facb83be45fff3c9ef40 = L.marker(
+                [48.708, 44.5133],
+                {
+}
+            ).addTo(marker_cluster_bbb12765421fadbe0a3632f69c09993c);
+        
+    
+        var popup_2d7739e013663026a5b456ec5a8e7a8b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b1f50772f5156cb8cfedab5e8c302a1f = $(`<div id="html_b1f50772f5156cb8cfedab5e8c302a1f" style="width: 100.0%; height: 100.0%;">АС Волгоградской области</div>`)[0];
+                popup_2d7739e013663026a5b456ec5a8e7a8b.setContent(html_b1f50772f5156cb8cfedab5e8c302a1f);
+            
+        
+
+        marker_4ecdc9294676facb83be45fff3c9ef40.bindPopup(popup_2d7739e013663026a5b456ec5a8e7a8b)
+        ;
+
+        
+    
+    
+            marker_4ecdc9294676facb83be45fff3c9ef40.bindTooltip(
+                `<div>
+                     АС Волгоградской области: 1 актов
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f1e253af938d902355f1657a2419f405 = L.marker(
+                [58.0105, 56.2502],
+                {
+}
+            ).addTo(marker_cluster_bbb12765421fadbe0a3632f69c09993c);
+        
+    
+        var popup_ff1262dd1be9647d7f101faddb16a621 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9a7bf91e956f9ddc0939894fffa6edca = $(`<div id="html_9a7bf91e956f9ddc0939894fffa6edca" style="width: 100.0%; height: 100.0%;">АС Пермского края</div>`)[0];
+                popup_ff1262dd1be9647d7f101faddb16a621.setContent(html_9a7bf91e956f9ddc0939894fffa6edca);
+            
+        
+
+        marker_f1e253af938d902355f1657a2419f405.bindPopup(popup_ff1262dd1be9647d7f101faddb16a621)
+        ;
+
+        
+    
+    
+            marker_f1e253af938d902355f1657a2419f405.bindTooltip(
+                `<div>
+                     АС Пермского края: 1 актов
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            marker_cluster_bbb12765421fadbe0a3632f69c09993c.addTo(map_eedca7c3b763fafe36705390a1ec1c0c);
+        
+</script>
+</html>
